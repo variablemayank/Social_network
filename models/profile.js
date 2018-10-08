@@ -1,4 +1,4 @@
-const mangoose = require('mongoose');
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // Create Schema
@@ -16,6 +16,8 @@ const ProfileSchema = new Schema ({
     company: {
         type: String
     },
+
+    
     website: {
         type: String
     },
